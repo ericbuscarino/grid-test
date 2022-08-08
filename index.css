@@ -1,0 +1,15 @@
+table, tr, td {
+    border: 1px solid;
+}
+
+td[scope=col]{
+    background-color: lightgray;
+}
+
+td[scope=row]{
+    background-color: lightgray;
+}
+
+.grid-input, .grid-cell {
+    max-width: 75px;
+}
